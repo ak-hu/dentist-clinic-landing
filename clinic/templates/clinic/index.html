@@ -1,0 +1,231 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--font awesome cdn-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<!--icon-->
+	<link rel="icon" type="image/x-icon" href="{% static 'clinic/images/icon.ico' %}">
+	<!--reset css-->
+	<link rel="stylesheet" href="{% static 'clinic/css/reset.css' %}">
+	<!--custom css-->
+	<link rel="stylesheet" href="{% static 'clinic/css/style.css' %}">
+	<title>Dental Care | Dentist Clinic</title>
+</head>
+<body>
+	<!--Page header starts-->
+	<header class="header container">
+		<a href="#" class="logo">Dental<span>Care.</span></a>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#about">About</a>
+			<a href="#services">Services</a>
+			<a href="#reviews">Reviews</a>
+			<a href="#contact">Contact</a>
+		</nav>
+
+		<a href="#contact" class="link-btn">Make Appointment</a>
+		<div id="menu-btn" class="fas fa-bars"></div>
+	</header>
+	<!--/ header-->
+
+	<!--Page content starts-->
+	<main>
+		<!--Home section starts-->
+		<section class="home flex" id="home">
+			<div class="container">
+			<div class="content ">
+				<h1>let us brighten your smile</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Adipisci quis porro maxime, praesentium dicta iusto.</p>
+				<a href="#contact" class="link-btn">Make Appointment</a>
+			</div>
+			</div>
+		</section>
+		<!--Home section ends-->
+
+		<!--About section starts-->
+		<section class="about container" id="about">
+			<div class="row">
+			<img src="{% static 'clinic/images/about-img.jpg' %}" alt="about">
+			<div class="content">
+				<h4>about us</h4>
+				<h3>true healthcare for your family</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Adipisci quis porro maxime, praesentium dicta iusto.</p>
+				<a href="#contact" class="link-btn">Make Appointment</a>
+			</div>
+			</div>
+		</section>
+		<!--About section ends-->
+
+		<!--Services section starts-->
+		<section class="services flex" id="services">
+			<h2>our services</h2>
+			<div class="row">
+				<div class="card">
+					<img src="{% static 'clinic/images/icon-1.svg' %}" alt="icon-1">
+					<h4>alignment specialist</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+				</div>
+				<div class="card">
+					<img src="{% static 'clinic/images/icon-2.svg' %}" alt="icon-2">
+					<h4>Cosmetic dentistry</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+				</div>
+				<div class="card">
+					<img src="{% static 'clinic/images/icon-3.svg' %}" alt="icon-3">
+					<h4>Oral hygiene experts</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="card">
+					<img src="{% static 'clinic/images/icon-4.svg' %}" alt="icon-4">
+					<h4>Root canal specialist</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+				</div>
+				<div class="card">
+					<img src="{% static 'clinic/images/icon-5.svg' %}" alt="icon-5">
+					<h4>Live dental advisory</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+				</div>
+				<div class="card">
+					<img src="{% static 'clinic/images/icon-6.svg' %}" alt="icon-6">
+					<h4>Cavity inspection</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?</p>
+				</div>
+			</div>
+		</section>
+		<!--Services section ends-->
+
+		<!--Process section starts-->
+		<section class="process flex" id="process">
+			<h2>work process</h2>
+			<div class="row">
+				<div class="card">
+					<img src="{% static 'clinic/images/process-1.png' %}" alt="process-1">
+					<h5>Cosmetic Dentistry</h5>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+				</div>
+				<div class="card">
+					<img src="{% static 'clinic/images/process-2.png' %}" alt="process-2">
+					<h5>Pediatric Dentistry</h5>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+				</div>
+				<div class="card">
+					<img src="{% static 'clinic/images/process-3.png' %}" alt="process-3">
+					<h5>Dental Implants</h5>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, excepturi?</p>
+				</div>
+			</div>
+		</section>
+		<!--Process section ends-->
+
+		<!--Reviews section starts-->
+		<section class="reviews flex" id="reviews">
+			<h2>satisfied clients</h2>
+			<div class="row">
+
+				<div class="card">
+					<img src="{% static 'clinic/images/pic-1.png' %}" alt="pic-1">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<h4>john deo</h4>
+					<span>satisfied client</span>
+				</div>
+
+				<div class="card">
+					<img src="{% static 'clinic/images/pic-2.png' %}" alt="pic-2">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<h4>john deo</h4>
+					<span>satisfied client</span>
+				</div>
+
+				<div class="card">
+					<img src="{% static 'clinic/images/pic-3.png' %}" alt="pic-3">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<h4>john deo</h4>
+					<span>satisfied client</span>
+				</div>
+
+			</div>
+		</section>
+		<!--Reviews section ends-->
+
+		<!--Contact section starts-->
+		<section class="contact flex" name="contact" id="contact">
+			<h2>make appointment</h2>
+
+			{% if messages %}
+			<div class="notification">
+				{% for message in messages %}
+				<p>{{message}}</p>
+				{% endfor %}
+			</div>
+			{% endif %}
+
+			<form method="post" class="form">
+				{% csrf_token %}
+				{% for f in form %}
+				<label>{{f.label}}</label>
+				{{f}}
+
+				{% endfor %}
+
+				<button type="submit" class="link-btn">Make Appointment</button>
+			</form>
+		</section>
+		<!--Contact section ends-->
+	</main>
+	<!--Page content ends-->
+
+	<!--Page footer starts-->
+	<footer>
+		<div class="row">
+			<div class="card">
+				<i class="fas fa-phone"></i>
+				<h6>phone number</h6>
+				<a href="tel:+48785683263">+48 785 683 263</a>
+			</div>
+			<div class="card">
+				<i class="fas fa-map-marker-alt"></i>
+				<h6>our address</h6>
+				<address>Bydgoszcz, Emilii Plater 4</address>
+			</div>
+			<div class="card">
+				<i class="fas fa-clock"></i>
+				<h6>opening hours</h6>
+				<span>09:00am to 06:00pm</span>
+			</div>
+			<div class="card">
+				<i class="fas fa-envelope"></i>
+				<h6>email address</h6>
+				<a href="mailto:artyom.chackiy@gmail.com">artyom.chackiy@gmail.com</a>
+			</div>
+		</div>
+	</footer>
+	<!--Page footer ends-->
+	<script src="{% static 'clinic/js/script.js' %}"></script>
+</body>
+</html>
