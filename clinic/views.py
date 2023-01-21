@@ -10,8 +10,8 @@ def index(request):
             try:
                 form.save()
                 messages.add_message(request, messages.SUCCESS, f"Appointment made successfully!")
-            except TypeError as a:
-                print('Form is NOT saved')
+            except:
+                form.add_error(None, 'Form is NOT saved')
 
     else:
         form = MakeAppointment()
