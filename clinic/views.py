@@ -13,7 +13,6 @@ def index(request):
             except:
                 form.add_error(None, 'Form is NOT saved')
 
-    break;
         form = MakeAppointment()
 
     return render(request, 'clinic/index.html', {'form': form})
